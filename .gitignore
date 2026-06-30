@@ -67,3 +67,11 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Arduino IDE Özel Geçici Dosyaları
+*.hex
+*.bin
+*.eep
+*.lst
+*.sym
+.build/
