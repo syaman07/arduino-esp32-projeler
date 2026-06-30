@@ -1,3 +1,6 @@
+//----YAPIMCI NOTU----
+//Kodda Yapay Zekadan Yardım Alınmıştır
+
 #include <Adafruit_GFX.h>
 #include <Adafruit_ILI9341.h>
 #include <XPT2046_Touchscreen.h>
