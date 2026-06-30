@@ -11,17 +11,15 @@ Bu proje, **ESP32-S3** mikrodenetleyicisi ve **2.4 inç ILI9341 TFT Dokunmatik E
 2. ILI9341 2.4" veya 2.8" TFT Dokunmatik Ekran (XPT2046 Dokunmatik Entegreli)
 3. Jumper Kablolar
 
-### Pin Bağlantı Tablosu
-
 | Ekran / Dokunmatik Pini | ESP32-S3 GPIO Pini | Açıklama |
 | :--- | :--- | :--- |
 | **TFT_CS** | 10 | TFT Chip Select |
-| **TFT_DC** | 8 | TFT Data/Command |
-| **TFT_RST** | 9 | TFT Reset |
-| **TOUCH_CS** | 7 | Touch Screen Chip Select |
-| **MOSI** | `[SPI MOSI PİNİNİ YAZ]` | SPI Master Out Slave In |
-| **MISO** | `[SPI MISO PİNİNİ YAZ]` | SPI Master In Slave Out |
-| **SCK** | `[SPI SCK PİNİNİ YAZ]` | SPI Clock |
+| **TFT_DC** | 8 | TFT Data/Command[cite: 1] |
+| **TFT_RST** | 9 | TFT Reset[cite: 1] |
+| **TOUCH_CS** | 7 | Touch Screen Chip Select[cite: 1] |
+| **MOSI** | 11 | SPI Master Out Slave In (Varsayılan FSPI) |
+| **MISO** | 13 | SPI Master In Slave Out (Varsayılan FSPI) |
+| **SCK** | 12 | SPI Clock (Varsayılan FSPI) |
 
 ---
 
