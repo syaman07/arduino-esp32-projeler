@@ -1,4 +1,4 @@
-//----YAPIMCI NOTU----
+//------YAPIMCI NOTU------
 //Kodda Yapay Zekadan Yardım Alınmıştır
 
 #include <Adafruit_GFX.h>
